@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 import plotly.graph_objects as go
 
-df=pd.read_csv('/Users/neeljoshi/Desktop/CSE830/diabetes.csv')
+df=pd.read_csv('diabetes.csv')
 st.header("""
 For this project I'm going to use the Diabetes Dataset. What I'm trying to find out is most obvious health condition for people with diabetes and also for people with no diabetes.
 """)
